@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {margin:0;padding:0}
+html {height:100%}
+body {height:100%;font-size:14px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.267em;color:#767676;-webkit-text-size-adjust:none}
+iframe {border:0}
+a {color:#3c3c3c;text-decoration:none}
+img {border:0;vertical-align:top}
+table {width:100%}
+caption {display:none !important}
+input, select {font-size:1em;border-radius:0}
+textarea {border:1px solid #ccc;border-radius:0;resize:none}
+input {-webkit-appearance:none}
+input[type="text"], input[type="checkbox"], input[type="radio"], select, textarea {-webkit-appearance:none}
+input[type="password"] {font-family:Verdana}
+button {margin:0;padding:0;border:0;background:transparent;font-family:HelveticaNeue-Light,AppleSDGothicNeo-Light,sans-serif;cursor:pointer}
+input:focus, select:focus, textarea:focus, button:focus {outline:none}
+hr {display:none}
+::-webkit-input-placeholder,
+:-ms-input-placeholder {color:#9b9b9b}
+
+/* skip */
+.skip, .hide {overflow:hidden;position:absolute;width:1px;height:1px;border:0;clip:rect(1px, 1px, 1px, 1px);clip-path:inset(50%)}/*block formatting context*/
+.skip_txt {overflow:hidden;display:inline-block;width:1px;height:1px;margin:-1px;border:0;clip:rect(1px, 1px, 1px, 1px);clip-path:inset(50%)}/*inline formatting context*/
+
+.f-color-bk {color:#3c3c3c}
+.f-color-gn {color:#00af56 !important}
+.f-color-vt {color:#7b5dfd}
